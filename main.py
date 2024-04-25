@@ -1,5 +1,5 @@
-def camel_case(s):
-    result = ""
+def camel_case(s: str):
+    result: str = ""
     for i in s.split():
         result += i.capitalize()
     return result
